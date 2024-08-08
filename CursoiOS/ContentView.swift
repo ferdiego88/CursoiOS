@@ -18,7 +18,7 @@ struct ContentView: View {
                 .frame(height: 40)
                 .padding(.bottom,60)
             Rectangle()
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.red)
                 .frame(height: 100)
         }
         .padding()
