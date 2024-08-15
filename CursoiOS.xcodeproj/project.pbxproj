@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CE9A7D22C65307B007097B8 /* CursoiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D12C65307B007097B8 /* CursoiOSApp.swift */; };
-		1CE9A7D42C65307B007097B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D32C65307B007097B8 /* ContentView.swift */; };
+		1CE9A7D42C65307B007097B8 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D32C65307B007097B8 /* Exercise1.swift */; };
 		1CE9A7D62C65307D007097B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D52C65307D007097B8 /* Assets.xcassets */; };
 		1CE9A7D92C65307D007097B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D82C65307D007097B8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		1CE9A7CE2C65307B007097B8 /* CursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE9A7D12C65307B007097B8 /* CursoiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSApp.swift; sourceTree = "<group>"; };
-		1CE9A7D32C65307B007097B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CE9A7D32C65307B007097B8 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
 		1CE9A7D52C65307D007097B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE9A7D82C65307D007097B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		1CE9A7D02C65307B007097B8 /* CursoiOS */ = {
 			isa = PBXGroup;
 			children = (
+				1CF4D2CB2C6EB4D100B67423 /* Exercises */,
 				1CE9A7D12C65307B007097B8 /* CursoiOSApp.swift */,
-				1CE9A7D32C65307B007097B8 /* ContentView.swift */,
 				1CE9A7D52C65307D007097B8 /* Assets.xcassets */,
 				1CE9A7D72C65307D007097B8 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				1CE9A7D82C65307D007097B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CF4D2CB2C6EB4D100B67423 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9A7D32C65307B007097B8 /* Exercise1.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CE9A7D42C65307B007097B8 /* ContentView.swift in Sources */,
+				1CE9A7D42C65307B007097B8 /* Exercise1.swift in Sources */,
 				1CE9A7D22C65307B007097B8 /* CursoiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

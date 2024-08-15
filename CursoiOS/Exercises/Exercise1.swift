@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Exercise1: View {
     var body: some View {
         VStack {
             HStack{
@@ -48,5 +48,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Exercise1()
 }
