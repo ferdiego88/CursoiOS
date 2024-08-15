@@ -10,45 +10,38 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack {
-                HStack {
-                    Rectangle()
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                        .padding(.bottom, 8)
-                    Rectangle()
-                        .foregroundColor(.orange)
-                        .padding(.bottom,8)
-                    Rectangle()
-                        .foregroundColor(.yellow)
-                        .padding(.bottom,8)
-                }.background(.red)
-                    .padding(.bottom, 100)
-                HStack {
-                    Circle()
-                        .foregroundColor(.green)
-                    Rectangle()
-                        .padding(.vertical,10)
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                    Circle()
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                }.background(.red)
-
-                HStack {
-                    Rectangle()
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                        .padding(.top,8)
-                    Rectangle()
-                        .foregroundColor(.orange)
-                        .padding(.top,8)
-                    Rectangle()
-                        .foregroundColor(.yellow)
-                        .padding(.top,8)
-                }.background(.red)
-                    .padding(.top, 100)
+            HStack{
+                Rectangle()
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                Rectangle()
+                    .foregroundColor(.orange)
+                Rectangle()
+                    .foregroundColor(.yellow)
+            }.frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+            Rectangle()
+                .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.orange)
+            HStack {
+                Circle()
+                    .foregroundColor(.green)
+                Rectangle()
+                Circle()
+                    .foregroundColor(.indigo)
             }
-            .background(.orange)
-            .frame(height: 700)
+            .frame(height: 250)
+            Rectangle()
+                .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.orange)
+            HStack{
+                Rectangle()
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                Rectangle()
+                    .foregroundColor(.orange)
+                Rectangle()
+                    .foregroundColor(.yellow)
+            }.frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
         }
+        .background(.red)
         
         
     }
