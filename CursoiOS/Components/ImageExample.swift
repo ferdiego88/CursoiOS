@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ImageExample: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("swift")
+            .resizable()
+            //.scaledToFit()
+            .scaledToFill()
+            .frame(width: 50, height: 90)
+        Image(systemName: "figure.walk")
+            .resizable()
+            .frame(width: 50, height: 90)
+        
     }
 }
 

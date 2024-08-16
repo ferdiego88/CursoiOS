@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C46DB852C6EE2CE0076867D /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46DB842C6EE2CE0076867D /* ImageExample.swift */; };
+		1C46DB872C6EF2A60076867D /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46DB862C6EF2A60076867D /* LabelExample.swift */; };
+		1C46DB892C6EF57C0076867D /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46DB882C6EF57C0076867D /* ButtonExample.swift */; };
+		1C46DB8B2C6EFB6F0076867D /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46DB8A2C6EFB6F0076867D /* TextFieldExample.swift */; };
 		1CE9A7D22C65307B007097B8 /* CursoiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D12C65307B007097B8 /* CursoiOSApp.swift */; };
 		1CE9A7D42C65307B007097B8 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D32C65307B007097B8 /* Exercise1.swift */; };
 		1CE9A7D62C65307D007097B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE9A7D52C65307D007097B8 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		1C46DB842C6EE2CE0076867D /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
+		1C46DB862C6EF2A60076867D /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
+		1C46DB882C6EF57C0076867D /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		1C46DB8A2C6EFB6F0076867D /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 		1CE9A7CE2C65307B007097B8 /* CursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE9A7D12C65307B007097B8 /* CursoiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSApp.swift; sourceTree = "<group>"; };
 		1CE9A7D32C65307B007097B8 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
@@ -88,6 +94,9 @@
 			children = (
 				1CF4D2D12C6EC31800B67423 /* TextExample.swift */,
 				1C46DB842C6EE2CE0076867D /* ImageExample.swift */,
+				1C46DB862C6EF2A60076867D /* LabelExample.swift */,
+				1C46DB882C6EF57C0076867D /* ButtonExample.swift */,
+				1C46DB8A2C6EFB6F0076867D /* TextFieldExample.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -163,9 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CE9A7D42C65307B007097B8 /* Exercise1.swift in Sources */,
+				1C46DB892C6EF57C0076867D /* ButtonExample.swift in Sources */,
+				1C46DB872C6EF2A60076867D /* LabelExample.swift in Sources */,
 				1CF4D2D22C6EC31800B67423 /* TextExample.swift in Sources */,
 				1CF4D2CF2C6EC23D00B67423 /* MainView.swift in Sources */,
 				1C46DB852C6EE2CE0076867D /* ImageExample.swift in Sources */,
+				1C46DB8B2C6EFB6F0076867D /* TextFieldExample.swift in Sources */,
 				1CE9A7D22C65307B007097B8 /* CursoiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
