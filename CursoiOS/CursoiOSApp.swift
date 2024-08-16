@@ -2,7 +2,7 @@
 //  CursoiOSApp.swift
 //  CursoiOS
 //
-//  Created by Diego Santillan on 8/08/24.
+//  Created by Fernando Diego Santillan on 8/08/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct CursoiOSApp: App {
     var body: some Scene {
         WindowGroup {
-            Exercise1()
+            MainView()
         }
     }
 }
